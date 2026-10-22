@@ -34,6 +34,7 @@ abstract class title {
         }
     }
 
+    // metoden er erklæret, men ikke implementeret. Den har ingen metodekrop endnu.
     public abstract double calculatePoints();
 
     public String getTitle() {
