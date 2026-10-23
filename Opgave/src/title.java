@@ -17,7 +17,7 @@ abstract class title {
         return calculatePoints() * RATE;
     }
 
-    public double convertLiteratureType() {
+    protected double convertLiteratureType() {
         switch (literatureType) {
             case "BI":
                 return 3;
@@ -35,7 +35,7 @@ abstract class title {
     }
 
     // metoden er erklæret, men ikke implementeret. Den har ingen metodekrop endnu.
-    public abstract double calculatePoints();
+    protected abstract double calculatePoints();
 
     public String getTitle() {
         return title;
