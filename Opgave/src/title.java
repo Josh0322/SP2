@@ -18,7 +18,7 @@ abstract class title {
     }
 
     protected double convertLiteratureType() {
-        switch (literatureType) {
+        switch (literatureType.toUpperCase()) {
             case "BI":
                 return 3;
             case "TE":

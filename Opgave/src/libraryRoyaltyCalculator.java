@@ -17,7 +17,7 @@ class libraryRoyaltyCalculator {
         author.addTitle(book2);
         author.addTitle(book3);
 
-        System.out.println(author.getName() + ": " + author.calculateRoyalties() + "kr");
+        System.out.println(author.getName() + ": " + author.calculateRoyalties() + " kr");
 
         // Forfatter 2
         author author2 = new author("Mads Johnson");
@@ -30,7 +30,7 @@ class libraryRoyaltyCalculator {
         author2.addTitle(book5);
         author2.addTitle(book6);
 
-        System.out.println(author2.getName() + ": " + author2.calculateRoyalties() + "kr");
+        System.out.println(author2.getName() + ": " + author2.calculateRoyalties() + " kr");
 
 
     }
